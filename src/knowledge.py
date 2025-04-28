@@ -7,7 +7,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import DirectoryLoader
 from langchain.tools.retriever import create_retriever_tool
 
-openai.api_key = "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"
+openai.api_key = ""
 vectorstore_dict = {}
 
 try:
