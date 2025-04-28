@@ -11,7 +11,7 @@ from knowledge import vectorstore_dict
 # Configurare pentru Azure OpenAI
 client = AzureOpenAI(
     azure_endpoint="https://rbro-openai-hackatlon.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-08-01-preview",
-    api_key="6wg18MMZ9VmVnWH3lQB2ziSrmjiAFz1AndPuOOL7v2uzNNVzAXYgJQQJ99AKACfhMk5XJ3w3AAABACOGKhWf",
+    api_key="",
     api_version="2024-08-01-preview"
 )
 
